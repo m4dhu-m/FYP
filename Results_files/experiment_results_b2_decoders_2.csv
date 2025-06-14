@@ -1,0 +1,9 @@
+Model,Decoder,Activation,Dropout,Loss,LR,WeightDecay,Posweight,Epochs,Encoder FT,Freeze Blocks,Params,Acc,Prec,Rec,F1,mDSC,mIoU,Exp
+segformer-b2-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27347393,0.9759,0.9826,0.9899,0.9862,0.8086,0.9729,1
+segformer-b2-finetuned-ade-512-512,conv_relu_dropout,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27635031,0.9645,0.9709,0.9891,0.9799,0.8072,0.9606,2
+segformer-b2-finetuned-ade-512-512,conv_bn_relu,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27635287,0.9724,0.978,0.9907,0.9843,0.8082,0.9691,3
+segformer-b2-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27539031,0.9801,0.9834,0.9941,0.9887,0.8093,0.9776,4
+segformer-b2-finetuned-ade-512-512,aspp,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27731287,0.9723,0.979,0.9895,0.9842,0.8081,0.969,5
+segformer-b2-finetuned-ade-512-512,se_block,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27637215,0.9652,0.9786,0.9816,0.9801,0.8069,0.961,6
+segformer-b2-finetuned-ade-512-512,unet_block,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27700695,0.9769,0.9837,0.99,0.9868,0.8087,0.974,7
+segformer-b2-finetuned-ade-512-512,attention,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],27639225,0.97,0.9806,0.9851,0.9828,0.8076,0.9663,8

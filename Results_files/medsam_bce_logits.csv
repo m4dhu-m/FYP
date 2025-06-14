@@ -1,0 +1,2 @@
+Model,Decoder,Activation,Dropout,Loss Func,LR,WeightDecay,Posweight,Epochs,Encoder FT,Freeze Blocks,Params,Acc,Prec,Rec,F1,mDSC,mIoU,Loss,Exp
+MedSAM,original,,0.1,BCEWithLogitsLoss,0.001,0.0,1,20,No,True,4058340,0.8792982,0.8792982,1.0,0.9357072,0.7982993,0.8792982,0.434,1

@@ -1,0 +1,35 @@
+Model,Decoder,Activation,Dropout,Loss,LR,WeightDecay,Posweight,Epochs,Encoder FT,Freeze Blocks,Params,mDSC,mIoU,Exp
+segformer-b0-finetuned-ade-512-512,original,,0,CombinedLoss,0.001,0,1,20,Yes,[],3714401,0.8047,0.963,1
+segformer-b0-finetuned-ade-512-512,original,,0,CombinedLoss,0.0001,0,1,20,Yes,[],3714401,0.8035,0.9561,2
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9642,3
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.0001,0,1,20,Yes,[],3714401,0.803,0.9537,4
+segformer-b0-finetuned-ade-512-512,original,,0.25,CombinedLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9651,5
+segformer-b0-finetuned-ade-512-512,original,,0.25,CombinedLoss,0.0001,0,1,20,Yes,[],3714401,0.8032,0.9543,6
+segformer-b0-finetuned-ade-512-512,original,,0.3,CombinedLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.965,7
+segformer-b0-finetuned-ade-512-512,original,,0.3,CombinedLoss,0.0001,0,1,20,Yes,[],3714401,0.8035,0.9563,8
+segformer-b0-finetuned-ade-512-512,original,,0,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3714401,0.8047,0.964,9
+segformer-b0-finetuned-ade-512-512,original,,0,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3714401,0.8033,0.9551,10
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9657,11
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3714401,0.8036,0.9559,12
+segformer-b0-finetuned-ade-512-512,original,,0.25,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3714401,0.8047,0.9655,13
+segformer-b0-finetuned-ade-512-512,original,,0.25,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3714401,0.8033,0.9532,14
+segformer-b0-finetuned-ade-512-512,original,,0.3,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9647,15
+segformer-b0-finetuned-ade-512-512,original,,0.3,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3714401,0.8033,0.9554,16
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0,CombinedLoss,0.001,0,1,20,Yes,[],3829751,0.8057,0.9737,17
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0,CombinedLoss,0.0001,0,1,20,Yes,[],3829751,0.8043,0.9627,18
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.001,0,1,20,Yes,[],3829751,0.8058,0.9726,19
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.0001,0,1,20,Yes,[],3829751,0.8034,0.9555,20
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.25,CombinedLoss,0.001,0,1,20,Yes,[],3829751,0.8059,0.9743,21
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.25,CombinedLoss,0.0001,0,1,20,Yes,[],3829751,0.8036,0.9555,22
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.3,CombinedLoss,0.001,0,1,20,Yes,[],3829751,0.8054,0.9729,23
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.3,CombinedLoss,0.0001,0,1,20,Yes,[],3829751,0.8034,0.9553,24
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3829751,0.8058,0.9749,25
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3829751,0.8036,0.9565,26
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3829751,0.8058,0.9737,27
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3829751,0.804,0.961,28
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.25,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3829751,0.8059,0.9748,29
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.25,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3829751,0.8045,0.9633,30
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.3,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3829751,0.8059,0.9753,31
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.3,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3829751,0.8042,0.9604,32
+,,,,,,,,,,,,,,
+,,,,,,,,lr = 0.001,,conv_transpose,,0.8059,,

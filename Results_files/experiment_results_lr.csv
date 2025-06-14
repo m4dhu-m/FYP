@@ -1,0 +1,10 @@
+Model,Decoder,Activation,Dropout,Loss,LR,WeightDecay,Epochs,Encoder FT,Freeze Blocks,Params,mDSC,mIoU,Exp
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0,20,Yes,[],3714401,0.8082,0.9667,1
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.0001,0,20,Yes,[],3714401,0.807,0.9572,2
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,5.00E-05,0,20,Yes,[],3714401,0.8059,0.9497,3
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.001,0,20,Yes,[],3714401,0.8082,0.9658,4
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.0001,0,20,Yes,[],3714401,0.8069,0.9574,5
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,5.00E-05,0,20,Yes,[],3714401,0.8062,0.9524,6
+segformer-b0-finetuned-ade-512-512,original,,0.1,WeightedDiceLoss,0.001,0,20,Yes,[],3714401,0.6612,0.1292,7
+segformer-b0-finetuned-ade-512-512,original,,0.1,WeightedDiceLoss,0.0001,0,20,Yes,[],3714401,0.7947,0.8592,8
+segformer-b0-finetuned-ade-512-512,original,,0.1,WeightedDiceLoss,5.00E-05,0,20,Yes,[],3714401,0.7354,0.5296,9

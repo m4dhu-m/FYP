@@ -1,0 +1,27 @@
+Model,Decoder,Activation,Dropout,Loss,LR,WeightDecay,Posweight,Epochs,Encoder FT,Freeze Blocks,Params,mDSC,mIoU,Exp
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9678,1
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0,1,20,No,['.encoder'],3714401,0.8048,0.9669,2
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.001,0,1,20,No,"['.encoder', '.embeddings']",3714401,0.8048,0.9675,3
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.0001,0,1,20,Yes,[],3714401,0.8036,0.9578,4
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.0001,0,1,20,No,['.encoder'],3714401,0.8034,0.9578,5
+segformer-b0-finetuned-ade-512-512,original,,0.1,CombinedLoss,0.0001,0,1,20,No,"['.encoder', '.embeddings']",3714401,0.8032,0.9562,6
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3714401,0.8048,0.9672,7
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.001,0,1,20,No,['.encoder'],3714401,0.8048,0.967,8
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.001,0,1,20,No,"['.encoder', '.embeddings']",3714401,0.8047,0.9652,9
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3714401,0.8034,0.9569,10
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,No,['.encoder'],3714401,0.8031,0.9562,11
+segformer-b0-finetuned-ade-512-512,original,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,No,"['.encoder', '.embeddings']",3714401,0.8037,0.959,12
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.001,0,1,20,Yes,[],3829751,0.8056,0.9743,13
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.001,0,1,20,No,['.encoder'],3829751,0.8058,0.9739,14
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.001,0,1,20,No,"['.encoder', '.embeddings']",3829751,0.8058,0.9746,15
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.0001,0,1,20,Yes,[],3829751,0.8034,0.9574,16
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.0001,0,1,20,No,['.encoder'],3829751,0.804,0.9599,17
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,CombinedLoss,0.0001,0,1,20,No,"['.encoder', '.embeddings']",3829751,0.8039,0.9612,18
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.001,0,1,20,Yes,[],3829751,0.8058,0.9751,19
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.001,0,1,20,No,['.encoder'],3829751,0.8055,0.9721,20
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.001,0,1,20,No,"['.encoder', '.embeddings']",3829751,0.8057,0.9733,21
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,Yes,[],3829751,0.8034,0.9563,22
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,No,['.encoder'],3829751,0.8037,0.9601,23
+segformer-b0-finetuned-ade-512-512,conv_transpose,,0.1,BCEWithLogitsLoss,0.0001,0,1,20,No,"['.encoder', '.embeddings']",3829751,0.8031,0.9555,24
+,,,,,,,,,,,,,,
+,,,,,,,,,lr = 0.001,conv_transpose,,0.8058,,

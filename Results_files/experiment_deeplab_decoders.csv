@@ -1,0 +1,9 @@
+Model,Decoder,Activation,Dropout,Loss,LR,WeightDecay,Posweight,Epochs,Encoder FT,Freeze Blocks,Params,Acc,Prec,Rec,F1,mDSC,mIoU,Exp
+deeplabV3,original,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],41998934,0.918,0.9369,0.9741,0.9551,0.8062,0.9141,1
+deeplabV3,conv_relu_dropout,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42028523,0.9192,0.938,0.9742,0.9557,0.8064,0.9152,2
+deeplabV3,conv_bn_relu,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42028779,0.9183,0.9368,0.9745,0.9552,0.8063,0.9144,3
+deeplabV3,conv_transpose,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42015083,0.9305,0.9586,0.9639,0.9613,0.8072,0.9254,4
+deeplabV3,aspp,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42044012,0.8204,0.9691,0.8256,0.8915,0.7871,0.8044,5
+deeplabV3,se_block,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42030707,0.9191,0.9342,0.9786,0.9558,0.8066,0.9155,6
+deeplabV3,unet_block,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42094187,0.9228,0.9406,0.9754,0.9576,0.8069,0.9188,7
+deeplabV3,attention,,0.1,CombinedLoss,0.001,0.0,1.0,20,Yes,[],42032717,0.9204,0.9376,0.976,0.9564,0.8066,0.9165,8
